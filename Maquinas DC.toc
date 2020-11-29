@@ -1,0 +1,13 @@
+\babel@toc {spanish}{}
+\contentsline {section}{\numberline {1}Objetivos}{3}{section.1}%
+\contentsline {section}{\numberline {2}Instrumentos y Equipos}{3}{section.2}%
+\contentsline {section}{\numberline {3}Condiciones de Ensayo}{3}{section.3}%
+\contentsline {section}{\numberline {4}Procedimiento}{3}{section.4}%
+\contentsline {section}{\numberline {5}Disgramas}{3}{section.5}%
+\contentsline {section}{\numberline {6}Desempeño}{3}{section.6}%
+\contentsline {section}{\numberline {7}Resultados}{3}{section.7}%
+\contentsline {subsection}{\numberline {7.1}Caídas Internas de Tensión}{3}{subsection.7.1}%
+\contentsline {subsection}{\numberline {7.2}Curva de Vacío}{4}{subsection.7.2}%
+\contentsline {section}{\numberline {8}Análisis de los Resultados}{4}{section.8}%
+\contentsline {section}{\numberline {9}Conclusiones}{4}{section.9}%
+\contentsline {section}{\numberline {10}Hoja de Datos}{4}{section.10}%

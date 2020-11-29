@@ -1,0 +1,169 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%		Informe de Máquinas DC
+%%%%	Fecha	: Septiembre 2020
+%%%%	Autor	: Luis Millan
+%%%%	Correo	: lmillan131@gmail.com
+%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[11pt,letterpaper]{article}
+\usepackage[activeacute,spanish]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage[letterpaper,includeheadfoot, top=0.5cm, bottom=3.0cm, right=2.0cm, left=2.0cm]{geometry}
+\renewcommand{\familydefault}{\sfdefault}
+\usepackage{graphicx}
+\usepackage{color}
+\usepackage{hyperref}
+\usepackage{amssymb}
+\usepackage{url}
+\usepackage{fancyhdr}
+\usepackage{hyperref}
+\usepackage{subfig}
+\usepackage{listings}
+\usepackage{mathrsfs,amsmath}
+\lstset{language=C, tabsize=4,framexleftmargin=5mm,breaklines=true}
+
+% =============== Inicio de Documento =============== 
+\begin{document}
+% =============== Portada =============== 
+\newpage
+\pagestyle{fancy}
+\fancyhf{}
+%\fancyhead[L]{ \includegraphics[scale=0.9]{logodgf.jpeg} }
+\vspace*{6cm}
+\begin{center}
+\Huge  {Trabajo de Investigación}\\
+\Huge  {Campo Magnetico Rotatorio}\\
+\Huge  {Maquinas Asincronicas}\\
+\vspace{1cm}
+\end{center}
+\vfill
+\begin{flushright}
+\begin{tabular}{ll}
+Autor: & Luis E. Millán U.\\
+Profesor: & Ing. Hector Delgado\\
+& \today\\
+& Caracas, Venezuela.
+\end{tabular}
+\end{flushright}
+
+% =============== Encabezado y pie de Pagina ===============
+\newpage
+\pagestyle{fancy}
+\fancyhf{}
+%Encabezado
+\fancyhead[L]{\rightmark}
+\fancyhead[L]{\small \rm \textit{Sección \rightmark}}
+\fancyhead[R]{\small \rm \textbf{\thepage}}
+%Pie 
+\fancyfoot[L]{\small \rm \textit{Br. L. Millán}}
+\fancyfoot[R]{\small \rm \textit{Maquinas Asincronicas}}
+\renewcommand{\sectionmark}[1]{\markright{\thesection.\ #1}}
+\renewcommand{\headrulewidth}{0.5pt}
+\renewcommand{\footrulewidth}{0.5pt}
+\tableofcontents
+%\listoffigures
+%==========================================%
+%  MOTORES
+%==========================================%
+\newpage
+\section{Objetivos}
+\section{Instrumentos y Equipos}
+\section{Condiciones de Ensayo}
+\section{Procedimiento}
+\section{Disgramas}
+\section{Desempeño}
+\section{Resultados}
+\subsection{Caídas Internas de Tensión}
+	Debido a que las resistnecias son medidas en temperatura ambiente (25$^{\circ}C$) dichas mediciones deben ser convertidas a una temperatura de referencia (75$^{\circ}C$) mediante la ecuación \ref{ec:refResistenciasTemp}.
+	Para el cálculo de la incertidumbre se utiliza la ecuación \ref{ec: incerResistCampo}.\\
+	
+	Los resultados luego de referenciar las diferentes resistencias a la temperatura correcta, incluir la incertidumbre y obtener un promedio son ilustrados en las tablas \ref{tab:resistencia de campo}, \ref{tab:resistencia serie} y \ref{tab:resistencia de Armadura}, para las resistencias de campo, serie y armadura.\\
+\begin{equation}\label{ec:refResistenciasTemp}
+	R_{r} = R_{medida} \cdot \frac{T_{r}+T_{k}}{T_{m}+T_{k}}
+\end{equation}
+Donde:
+\begin{itemize}
+	\item $R_{r}$ = Resistencia de la temperatura deseada
+	\item $R_{m}$ = Resistencia medida a la temperatura $T_{m}$
+	\item $T_{m}$ = Temperatura del Laboratorio
+	\item $T_{r}$ = Temperatura de Referencia
+	\item $T_{k}$ = $234.5 ^{\circ} C$ 
+\end{itemize}
+
+\begin{equation}\label{ec:ohm}
+	R = \frac{V}{I}
+\end{equation}
+
+\begin{equation}\label{ec: incerResistCampo}
+	\bigtriangleup R = \frac{\delta V}{\delta R} \cdot \bigtriangleup V + \frac{\delta I}{\delta R} \cdot \bigtriangleup I
+\end{equation}
+
+\begin{table}[t]
+	\begin{center}
+		\begin{tabular}{| r | l | c |}
+			\hline
+			$V_{DC}$ $[V]$ & $I_{DC}$ $[A]$ & $R_{F}$ $[\Omega]$ \\ \hline
+			$63 \pm 1$ & $1.00 \pm 0.02$ & $75.14 \pm 2.26 $ \\
+			$58 \pm 1$ & $0.92 \pm 0.02$ & $75.19 \pm 2.46$ \\
+			$48 \pm 1$ & $0.76 \pm 0.02$ & $75.32 \pm 2.97$ \\ \hline
+			- & Promedio & $75.21 \pm 2.56$ \\ \hline
+		\end{tabular}
+		\caption{Resistencia de Campo}
+		\label{tab:resistencia de campo}
+	\end{center}
+\end{table}
+
+\begin{table}[t]
+	\begin{center}
+		\begin{tabular}{| r | l | c |}
+			\hline
+			$V_{DC}$ $[V]$ & $I_{DC}$ $[A]$ & $R_{S}$ $[\Omega]$ \\ \hline
+			$60 \pm 1$ & $3.3 \pm 0.1$ & $21.69 \pm 0.85$ \\
+			$72 \pm 1$ & $4.0 \pm 0.1$ & $21.47 \pm 0.70$ \\
+			$78 \pm 1$ & $4.6 \pm 0.1$ & $20.22 \pm 0.59$ \\  \hline
+			- & Promedio & $21.13 \pm 0.71$ \\ \hline
+		\end{tabular}
+		\caption{Resistencia Serie}
+		\label{tab:resistencia serie}
+	\end{center}
+\end{table}
+
+\begin{table}[t]
+	\begin{center}
+		\begin{tabular}{| r | l | c | c |}
+			\hline
+			$V_{DC}$ $[V]$ & $V_{R_{shunt}}$ $[mV]$ & $I_{DC}$ $[A]$ & $R_{A}$ $[\Omega]$ \\ \hline
+			$1.65 \pm 0.05$ & $18.0 \pm 0.1$ & $3.60 \pm 0.02$ & $0.46 \pm 0.02$ \\
+			$1.50 \pm 0.05$ & $16.0 \pm 0.1$ & $3.20 \pm 0.02$ & $0.47 \pm 0.02$ \\
+			$1.15 \pm 0.05$ & $12.5 \pm 0.1$ & $2.50 \pm 0.02$ & $0.46 \pm 0.02$ \\  
+			$0.75 \pm 0.05$ & $8.0 \pm 0.2$  & $1.60 \pm 0.04$ & $0.47 \pm 0.04$ \\  \hline
+			- & - & Promedio & $0.47 \pm 0.03$ \\ \hline
+		\end{tabular}
+		\caption{Resistencia de Armadura}
+		\label{tab:resistencia de Armadura}
+	\end{center}
+\end{table}
+
+\subsection{Curva de Vacío}
+\begin{table}[t]
+	\begin{center}
+		\begin{tabular}{| r | l | c | c |}
+			\hline
+			$\%$Tensión  & Corriente de Campo [$I_{F}$]  & $E_{A}$ Subida [V] & $E_{A}$ Bajada [V] \\ \hline
+			$0.00 U_{cc}$ & $0.00$          & $8   \pm 1$ & $12  \pm 1$ \\
+			$0.25 U_{cc}$ & $0.16 \pm 0.16$ & $42  \pm 1$ & $45  \pm 1$ \\
+			$0.50 U_{cc}$ & $0.50 \pm 0.1$  & $58  \pm 1$ & $58  \pm 1$ \\
+			$0.75 U_{cc}$ & $0.70 \pm 0.1$  & $74  \pm 1$ & $74  \pm 1$ \\
+			$1.00 U_{cc}$ & $0.90 \pm 0.1$  & $100 \pm 1$ & $100 \pm 1$ \\  
+			$1.12 U_{cc}$ & $1.10 \pm 0.1$  & $110 \pm 1$ & $110 \pm 1$ \\
+			$1.25 U_{cc}$ & $1.30 \pm 0.1$  & $12  \pm 1$ & $120 \pm 1$ \\  \hline
+		\end{tabular}
+		\caption{Curva de Vacio}
+		\label{tab:Curva de Vacio}
+	\end{center}
+\end{table}
+\section{Análisis de los Resultados}
+\section{Conclusiones}
+\section{Hoja de Datos}
+\end{document}
