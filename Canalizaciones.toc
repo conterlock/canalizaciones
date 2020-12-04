@@ -11,10 +11,14 @@
 \contentsline {subsubsection}{\numberline {2.1.2}Alcances}{4}{subsubsection.2.1.2}%
 \contentsline {subsection}{\numberline {2.2}Clase 2 Miércoles 25/11/2020}{5}{subsection.2.2}%
 \contentsline {subsubsection}{\numberline {2.2.1}Selección de Conductores}{5}{subsubsection.2.2.1}%
-\contentsline {section}{\numberline {3}Asignaciones}{7}{section.3}%
-\contentsline {subsection}{\numberline {3.1}Asignación 1 Miercoles 25/11/2020}{7}{subsection.3.1}%
-\contentsline {subsubsection}{\numberline {3.1.1}Retroalimentación}{7}{subsubsection.3.1.1}%
-\contentsline {subsection}{\numberline {3.2}Asignación 2 Lunes 30/11/2020}{7}{subsection.3.2}%
-\contentsline {subsubsection}{\numberline {3.2.1}Tipos de Tableros}{7}{subsubsection.3.2.1}%
-\contentsline {subsubsection}{\numberline {3.2.2}Circuitos Ramales}{8}{subsubsection.3.2.2}%
-\contentsline {subsubsection}{\numberline {3.2.3}Retroalimentación}{10}{subsubsection.3.2.3}%
+\contentsline {subsection}{\numberline {2.3}Clase 3 Miércoles 4/12/2020}{7}{subsection.2.3}%
+\contentsline {subsubsection}{\numberline {2.3.1}Breakers}{7}{subsubsection.2.3.1}%
+\contentsline {subsubsection}{\numberline {2.3.2}Ejercicio Nº1}{7}{subsubsection.2.3.2}%
+\contentsline {section}{\numberline {3}Asignaciones}{8}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Asignación 1 Miercoles 25/11/2020}{8}{subsection.3.1}%
+\contentsline {subsubsection}{\numberline {3.1.1}Retroalimentación}{8}{subsubsection.3.1.1}%
+\contentsline {subsection}{\numberline {3.2}Asignación 2 Lunes 30/11/2020}{8}{subsection.3.2}%
+\contentsline {subsubsection}{\numberline {3.2.1}Tipos de Tableros}{8}{subsubsection.3.2.1}%
+\contentsline {subsubsection}{\numberline {3.2.2}Circuitos Ramales}{9}{subsubsection.3.2.2}%
+\contentsline {subsubsection}{\numberline {3.2.3}Retroalimentación}{11}{subsubsection.3.2.3}%
+\contentsline {subsection}{\numberline {3.3}Asignación 3 Lunes 9/12/2020}{11}{subsection.3.3}%
