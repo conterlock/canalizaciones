@@ -21,4 +21,4 @@
 \contentsline {subsubsection}{\numberline {3.2.1}Tipos de Tableros}{8}{subsubsection.3.2.1}%
 \contentsline {subsubsection}{\numberline {3.2.2}Circuitos Ramales}{9}{subsubsection.3.2.2}%
 \contentsline {subsubsection}{\numberline {3.2.3}Retroalimentación}{11}{subsubsection.3.2.3}%
-\contentsline {subsection}{\numberline {3.3}Asignación 3 Lunes 9/12/2020}{11}{subsection.3.3}%
+\contentsline {subsection}{\numberline {3.3}Asignación 3 Lunes 9/12/2020}{18}{subsection.3.3}%

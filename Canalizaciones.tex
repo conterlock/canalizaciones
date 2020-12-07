@@ -1,6 +1,6 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%%%		Informe de Máquinas DC
-%%%%	Fecha	: Septiembre 2020
+%%%%		Informe de Canalizaciones
+%%%%	Fecha	: Diciembre de 2020
 %%%%	Autor	: Luis Millan
 %%%%	Correo	: lmillan131@gmail.com
 %%%%
@@ -29,7 +29,6 @@
 \newpage
 \pagestyle{fancy}
 \fancyhf{}
-%\fancyhead[L]{ \includegraphics[scale=0.9]{logodgf.jpeg} }
 \vspace*{6cm}
 \begin{center}
 \Huge  {Canalizaciones y Distribución}\\
@@ -60,7 +59,6 @@ Profesor: & Ing. Jorge Crespo\\
 \renewcommand{\headrulewidth}{0.5pt}
 \renewcommand{\footrulewidth}{0.5pt}
 \tableofcontents
-%\listoffigures
 %==========================================%
 %  MOTORES
 %==========================================%
@@ -208,6 +206,9 @@ Los breaker son clasificados por polos, por ejemplo:
 	\item Breaker 3x225A (tres polos).
 \end{itemize}
 
+	\textbf{Regímenes de Corriente Normalizados (240.6):} Fusibles e Interruptores Automáticos de Caja Moldeada. Los regímenes de corriente normalizados de los fusibles e interruptores automáticos de caja moldeada de tiempo, inverso, serán de 15, 20, 25, 30, 35,40,45, 50, 60, 70, 80, 90, 100,110,125,150,175,200,225,250,300,350,400,450,500, 600, 700, 800,1.000,1.200, 1.600, 2.000, 2.500, 3.000,4.000, 5.000 y 6.000 A.\\
+	Adicionalmente, como régimen normalizado de los fusibles se considerará las de 1,3,6, 10 y 601 A. Se permitirá el uso de fusibles e interruptores automáticos de tiempo inverso con un régimen de corriente que no esté normalizado.
+
 \subsubsection{Ejercicio Nº1}
 
 Para los siguientes elementos, seleccione el cable que usarían para alimentar todo y realice el balanceo en un tablero, verifique los consumos:
@@ -295,8 +296,261 @@ Los circuitos ramales comprendidos en esta Sección se clasificarán de acuerdo 
 		\end{enumerate}
 \end{itemize}
 \subsubsection{Retroalimentación}
+Otra forma de categorizar los tableros de distribución es la siguiente:
+\begin{enumerate}
+	\item 	\textbf{Tableros de Alumbrado Tipo NLAB}\\
+		Este tablero es utilizado generalmente para la protección y corte de circuitos de iluminación, tomacorrientes y carga menores tales como: pequeños equipos de aire acondicionado, máquinas de oficinas y otros.Características Eléctricas
+		\begin{itemize}
+			\item \textbf{Barras Principales:} 125 hasta 400 Amp. Máxima.
+			\item \textbf{Interruptor Principal:} con o sin (400Amp. Máxima).
+			\item \textbf{Interruptores modelo:} Cutler Hammer, Square D, General Electric, ABB.
+			\item \textbf{Voltaje de trabajo:} 240/120 Vac. Máxima 60 Hz.
+			\item \textbf{Servicio:} 2 Fases 3 Hilos | 2 Fases 4 Hilos | 3 Fases 4 Hilos | 3 Fases 5 Hilos.
+			\item \textbf{Montaje:} Superficial o Empotrado, Intemperie o a Prueba de Polvo.
+			\item \textbf{Número de Circuitos:} Hasta 42 circuitos.
+			\item \textbf{Barras:} Plateadas ó Pintadas.
+			\item \textbf{Capacidad de Interrupción Máxima:} 10KA Icc (rms) en 240 VAC. Limitados por los circuitos Ramales.
+			\item \textbf{Lámina utilizada:} Calibre 16 (1.5mm) Calibre 14 (1.9mm).
+			\item \textbf{Pintura:}	Gris Electrostatico RAL 7042.
+		\end{itemize}
+	
+	\item \textbf{Tableros de Alumbrado y Distribución Tipo NAB}\\
+		Este tablero es utilizado para la protección y corte de circuitos de iluminación y pequeñas cargas de alimentadores que posteriormente son protegidos por los otros dispositivos tales como: guardamotores, seccionadores y otros. Normalmente  alimentan circuitos ramales de: maquinas pequeñas de potencias y/o sub tableros.
+		\begin{itemize}
+			\item \textbf{Barras Principales:} 600 Amp. Máxima.
+			\item \textbf{Interruptor Principal:} con o sin (600Amp. Máxima).
+			\item \textbf{Interruptores modelo:} Cutler Hammer, Square D, General Electric, ABB.
+			\item \textbf{Voltaje de trabajo:} 208/120 Vac. Máxima 60 Hz.
+			\item \textbf{Servicio:} 2 Fases 3 Hilos | 2 Fases 4 Hilos | 3 Fases 4 Hilos | 3 Fases 5 Hilos.
+			\item \textbf{Montaje:} Superficial o Empotrado, Intemperie o a Prueba de Polvo.
+			\item \textbf{Número de Circuitos:} Hasta 42 circuitos.
+			\item \textbf{Barras:} Plateadas ó Pintadas.
+			\item \textbf{Capacidad de Interrupción Máxima:} 14KA Icc (rms) en 240 VAC.
+			\item \textbf{Lámina utilizada:} Calibre 16 (1.5mm) Calibre 14 (1.9mm).
+			\item \textbf{Pintura:} Gris Electrostatico RAL 7042.
+		\end{itemize}
+	
+	\item \textbf{Tableros de Alumbrado y Distribución Tipo NHB}\\
+		Este tablero es utilizado para la protección y corte de circuitos de iluminación, cargas de alimentadores, alumbrado, maquinas y sub tableros.
+		\begin{itemize}
+			\item \textbf{Barras Principales:} 600 Amp. Máxima.
+			\item \textbf{Interruptor Principal:} con o sin (600Amp. Máxima).
+			\item \textbf{Interruptores modelo:} Cutler Hammer, Square D, General Electric, ABB.
+			\item \textbf{Voltaje de trabajo:} 480/277 Vac. Máxima 60 Hz.
+			\item \textbf{Servicio:} 2 Fases 3 Hilos | 2 Fases 4 Hilos | 3 Fases 4 Hilos | 3 Fases 5 Hilos.
+			\item \textbf{Montaje:} Superficial o Empotrado, Intemperie o a Prueba de Polvo.
+			\item \textbf{Número de Circuitos:} Hasta 42 circuitos.
+			\item \textbf{Barras:} Plateadas ó Pintadas.
+			\item \textbf{Capacidad de Interrupción Máxima:} 25KA Icc (rms) en 480 VAC. 18 KA Icc (rms) 600 VAC.
+			\item \textbf{Lámina utilizada:} Calibre 16 (1.5mm) Calibre 14 (1.9mm).
+			\item \textbf{Pintura:} Gris Electrostatico RAL 7042.
+		\end{itemize}
+	
+	\item \textbf{Tableros de Fuerza y Distribución Tipo CCB}\\
+		Este tablero es utilizado para la protección y corte de circuitos de iluminación y pequeñas cargas de alimentadores que posteriormente son protegidos por los otros dispositivos tales como: guardamotores, seccionadores y otros. Normalmente  alimentan circuitos ramales de: maquinas pequeñas de potencias y/o sub tableros.
+		
+		\begin{itemize}
+			\item \textbf{Barras Principales con Principal:} 1200 Amp. Máxima.
+			\item \textbf{Barras Principales sin Principal:} 2000 Amp. Máxima.
+			\item \textbf{Interruptores modelo:} Cutler Hammer, Square D, General Electric, ABB.
+			\item \textbf{Voltaje de Trabajo y Voltaje de Aislamiento:} 600 Vac. Máxima 60 Hz.
+			\item \textbf{Servicio:} 3 Fases 4 Hilos | 3 Fases 5 Hilos.
+			\item \textbf{Montaje:} Autosoportado.
+			\item \textbf{Número de Circuitos:} Según requerimientos, con disposición y requisición de los clientes. De los elementos de distribución horizontal no más de 42 circuitos (según norma COVENIN 0542-1999).
+			\item \textbf{Barras:} Desnudas o con Recubrimiento Aislante, Plateadas ó Pintadas.
+			\item \textbf{Capacidad de Interrupción Máxima:} 65KA Icc (rms) en 240 VAC.
+			\item \textbf{Cubierta o Ejecución:}
+				\begin{enumerate}
+				 	\item A prueba de polvo y agua (Nema 12).
+				 	\item Para uso a la intemperie (Nema 3R)
+				 	\item Para ambiente corrosivo (Nema 4X)
+				\end{enumerate}
+			\item \textbf{Lámina utilizada:} Calibre 14 (1.9mm).
+			\item \textbf{Pintura:} Gris Electrostatico RAL 7042.
+		\end{itemize}
+	\item \textbf{Tableros de Distribución de Potencia Tipo CDP}\\
+		Utilizado mayormente para la distribucion principal desde la Sub-estacion a los diferentes centros de carga y/o Sub – Alimentadores de la mayoria de los casos, conteniendo instrumentos tales como: voltimetro, amperimetros, kilovatimetros, kilovatrimetros horas, cosfimetro, selectores de fases, entre otros. Igualmente suelen contener relés de protección por falla de fase, falla a tierra, señalizacion de averias y otros.
+		\begin{itemize}
+			\item \textbf{Barras Principales con Principal:} Hasta 4000 Amp. Normalmente.
+			\item \textbf{Interruptor Principales:} 4000 Amp. Máxima.
+			\item \textbf{Interruptores modelo:} Cutler Hammer, Square D, General Electric, ABB.
+			\item \textbf{Voltaje de Trabajo y Voltaje de Aislamiento:} 600 Vac. Máxima 60 Hz.
+			\item \textbf{Servicio:} 3 Fases 4 Hilos | 3 Fases 5 Hilos.
+			\item \textbf{Montaje:} Autosoportados.
+			\item \textbf{Tipo de Construcción:} Con o sin compartimientos.
+			\item \textbf{Número de Circuitos:} Según requerimientos
+			\item \textbf{Barras:} Plateadas ó Pintadas.
+			\item \textbf{Capacidad de Interrupción Máxima:} 120KA Icc (rms) en 600 VAC. Máxima.
+			\item \textbf{Cubierta o Ejecución:} 
+				\begin{enumerate}
+					\item A prueba de polvo y agua (Nema 12).
+					\item Para uso a la intemperie (Nema 3R).
+					\item Para ambiente corrosivo (Nema 4X).
+				\end{enumerate}
+			\item \textbf{Lámina utilizada:} Calibre 14 (1.9mm).
+			\item \textbf{Pintura:} Gris Electrostatico RAL 7042.
+		\end{itemize}
+	\item \textbf{Centros de Control de Motores CCM}\\
+		Un Centro  Control de motores ó C.C.M. por definicion es un arreglo de varias unidades agrupadas para proteger un determinado grupo de motores, como tambiém permite lograr a través de su cableado interior el automatismo para realizar un determinado proceso, la ventaja que ofrece este sistema es que permite tanto la supervisión como la operación con un minimo costo.\\	
+Las unidades de protección y corte de circuito pueden ser: interruptores termomagnéticos o fusibles para protección de motores. Los guardamotores o arrancadores podrán ser de protección térmica fija o ajustable, como también podrán ser con compensación de temperatura ambiental o no.\\
+Este tipo de equipos, es conocido como fijo por contar con 02 compartimientos provisto de doble fondo, en donde una sección se encuentran alojados los equipos de control de arrancadores, relés térmicos y pulsadores, en la otra sección se encuentra un chasis con un sistema de barras de cobre el cual depende de la cantidad de arrancadores a servir.
+		\begin{itemize}
+			\item \textbf{Barras Principales con Principal:} 4000 Amp. Normalmente.
+			\item \textbf{Interruptor Principal:} 4000 Amp. Máxima.
+			\item \textbf{Arrancadores modelo:} Cutler Hammer, Square D, General Electric, ABB.
+			\item \textbf{Voltaje de Trabajo:} 600 Vac. Máxima 60 Hz.
+			\item \textbf{Voltaje de Aislamiento:} 600 Vac. Minimo 60 Hz.
+			\item \textbf{Voltaje de Control:} 120 VAC. 60Hz.
+			\item \textbf{Servicio:} 3 Fases 4 Hilos | 3 Fases 5 Hilos.
+		 	\item \textbf{Montaje:} Autosoportado.
+			\item \textbf{Barras:} Desnudas o con Recubrimiento Aislante, Plateadas ó Pintadas 
+			\item \textbf{Capacidad de Interrupción Máxima:} 65KA Icc (rms) en 240 VAC.
+			\item \textbf{Cubierta o Ejecución:}
+			\begin{enumerate}
+				\item A prueba de polvo y agua (Nema 12).
+				\item Para uso a la intemperie (Nema 3R).
+				\item Para ambiente corrosivo (Nema 4X).
+			\end{enumerate}
+			\item \textbf{Lámina utilizada:} Calibre 14 (1.9mm).
+			\item \textbf{Pintura:} Gris Electrostatico RAL 7042 ó 7032.		
+		\end{itemize}
+	\item \textbf{Arrancadores}\\
+		Este tablero es empleado con una combinación de contactor y relé térmico para el arranque de motores, incluye elementos de supervisión, control y mando.
+		\begin{itemize}
+			\item \textbf{Voltaje de trabajo:} Hasta 600 VAC. 60Hz.
+			\item \textbf{Voltaje de Control:} 120 VAC. 60Hz.
+			\item \textbf{Servicio:} 3 Fases 4 Hilos | 3 Fases 5 Hilos.
+			\item \textbf{Montaje:} Superficial, Intemperie o a Prueba de Polvo.
+			\item \textbf{Lámina utilizada:} Calibre 16 (1.5mm) Calibre 14 (1.9mm).
+			\item \textbf{Pintura:} Gris Electrostatico RAL 7042 ó 7032.
+		\end{itemize}
+	\item \textbf{Tableros de Aislamiento Uso Hospitalario}
+		Estos tableros estan diseñado para uso Hospitalario en aréas de Observación, Quirófano, Unidad de Cuidados Intensivos entre otros. Su objetivo principal es detectar fallas a tierras de Equipos Conectados al mismo para así evitar riesgos eléctricos que atenten contra la vida del paciente.
+		\begin{itemize}
+			\item \textbf{Barras Principales:} Hasta 400 Amp.
+			\item \textbf{Interruptor Principal:} Hasta 225Amp.
+			\item \textbf{Tansformador de Aislamiento:} 3KVA | 5KVA | 7.5KVA | 15KVA | 25KVA.
+			\item \textbf{Voltaje de Operacion:} 120/208/240 Vac. Máxima 60 Hz.
+			\item \textbf{Servicio:} 1 Fase 3 Hilos | 2 Fases 4 Hilos | 3 Fases 5 Hilos.
+			\item \textbf{Montaje:} Superficial o Embutido.
+			\item \textbf{Número de Circuitos:} Hasta 42 circuitos.
+			\item \textbf{Barras:} Plateadas ó Pintadas.
+			\item \textbf{Nivel de Aislamiento:} 5mA.
+			\item \textbf{Monitor de Aislamiento:} 120VAC | 240VAC.
+			\item \textbf{Lámina utilizada en Caja:} Calibre 16 (1.5mm) en Hierro Negro Pulido.
+			\item \textbf{Lámina utilizada en Puerta:} Calibre 16 (1.5mm) en Acero Inoxidable.
+			\item \textbf{Pintura de la Caja:} Gris Electrostatico RAL 7042.
+		\end{itemize}
+	\item \textbf{Tomas para Uso Hospitalario}\\
+		Son cajas en lámina calibre 16 uso empotrable que contendrá el número de tomas 120V y 220V requeridas según el uso, ademas de una toma tipo PLUG para aterramiento todos estos equipos son exclusivos para uso hospitario montados sobre una tapa en Acero Inoxidable. Generalmente instaladas en UCI (Unidad de Cuidados Intensivos) y Quirofanos.
+		\begin{itemize}
+			\item \textbf{Voltaje de trabajo:} 120/240 Vac.
+			\item \textbf{Montaje:} Empotrado.
+			\item \textbf{Lámina utilizada:} Calibre 16 (1.5mm) Acero Inoxidable.
+		 	\item \textbf{Usos:} Unidad de Cuidados Intensivos y Quirofanos, entre otros.
+		\end{itemize}
+		
+	\item \textbf{Transferencias Automaticas y Manuales}\\
+		Estos dispositivos supervisan las fuentes de energía normal generado por una empresa distribuidora de Energía y una fuente de Energía de Emergencia generada por una platan ó generador, en caso de interrupción ó perdida de la energía normal el dispositivo electrónico del tablero envia señales de control para activar relé que accionarán el mecanismo de los interruptores y transferiran automaticamente los circuitos de la carga a la fuente de emergencia; una vez se haya restituido la energía primaria el proceso se invierte automaticamente.
+		\begin{itemize}
+			\item \textbf{Intensidad o Carga de Trabajo:} Manuales (160Amp a 1600Amp) ó Automaticas (250Amp a 1600Amp).
+			\item \textbf{Marcas Modelo:} Telergon, ABB, Socomec.
+			\item \textbf{Voltaje de trabajo:} 240/440/480 Vac. 60 Hz.
+			\item \textbf{Montaje:} Superficial o Autosoportado.
+			\item \textbf{Lámina utilizada:} Calibre 16 (1.5mm) Calibre 14 (1.9mm).
+			\item \textbf{Pintura:} Gris Electrostatico RAL 7042.
+		\end{itemize}
+	\item \textbf{Consolas de Control y Mando}\\
+		Estos equipos son usados generalmente para el control a distancia de arrancadores en plantas procesadoras que requieren de supervisión y control por parte de un operario; normalmente se utilizan en plantas Azucareras, Arroceras entre otras.
+		\begin{itemize}
+			\item \textbf{Montaje:} Autosoportado.
+			\item \textbf{Lámina utilizada:} Calibre 16 (1.5mm) Calibre 14 (1.9mm).
+			\item \textbf{Pintura:} Gris Electrostatico RAL 7042 ó 7032.
+		\end{itemize}
+	
+	\item \textbf{Celdas de Alta Tensión}\\
+		Estos gabinetes son complementos de las Sub-Estaciones y se utilizan para cortar el flujo de energia primaria de 17.5KV ó 24KV hacia el transformador de tensión, donde es necesario controlar y tranformar la energía eléctrica desde niveles de distribución a valores de utilización.
+		\begin{itemize}
+			\item \textbf{Voltaje de Operacion:} 17.5KV | 24KV.
+			\item \textbf{Montaje:} Autosoportado.
+			\item \textbf{Nivel de Aislamiento:} 25KA a 40KA.
+			\item \textbf{Lámina utilizada:} Calibre 12 (2.5mm) y Calibre 14 (2mm).
+			\item \textbf{Pintura de la Caja:} Gris Electrostatico RAL 7042.
+		\end{itemize}
+	\item \textbf{Gabinetes y Cajas en Acero Inoxidable}\\
+		Para ser usados en áreas donde existan agentes contaminates y corrosivas que acorten la vida util tanto del gabinete como de los equipos.
+		\begin{itemize}
+			\item \textbf{Protección:} Nema 4X con empacadura de neopreno y claps de cierre para mayor hermetismo.
+			\item \textbf{Bisagras:} Fabricadas en Acero Inoxidable.
+			\item \textbf{Cerradura:} En Acero Inoxidable con o sin llave.
+			\item \textbf{Montaje:} Superficial o Autosoportado.
+			\item \textbf{Lámina utilizada:} Calibre 16 (1.5mm) en Acero Inoxidable.
+			\item \textbf{Acabado:} Acero Inoxidable Mate ó Satinado.
+		\end{itemize}
+	\item \textbf{Tableros de Control}\\
+		Se utilizan para el control de Iluminación de áreas abiertas y cerradas (galpones, estacionamiento, autopistas, estadios entre otros). Con control automático por medio de fotocelda ó reloj horario.
+		\begin{itemize}
+			\item \textbf{Barras Principales:} Hasta 600 Amp. Máxima.
+			\item \textbf{Voltaje de Operación:} 120/240/480/600 Vac. Máximo 60 Hz.
+			\item \textbf{Servicio:} 2 Fases 4 Hilos | 3 Fases 5 Hilos.
+			\item \textbf{Montaje:} Superficial Uso Interior e Intemperie.
+			\item \textbf{Número de Circuitos:} Según Requerimientos.
+			\item \textbf{Barras:} Plateadas ó Pintadas.
+			\item \textbf{Lámina utilizada:} Calibre 16 (1.5mm) Calibre 14 (1.9mm).
+			\item \textbf{Pintura:} Gris Electrostatico RAL 7042.
+		\end{itemize}
+	\item \textbf{Tableros de Medidores}\\
+		Contempla los tableros de distribución utilizado por las empresas proveedoras de Energía donde se combinan el tablero de distribución, la sección de medición y la sección de suminstro al usuario.
+		\begin{itemize}
+			\item \textbf{Barras Principales:} Hasta 1600 Amp. Máxima.
+			\item \textbf{Interruptor Principal:} 1600Amp Máxima.
+			\item \textbf{Interruptores modelo:} Cutler Hammer, Square D, General Electric, ABB.
+			\item \textbf{Voltaje de Operación:} 220/110 Vac. Máximo 60 Hz.
+			\item \textbf{Servicio:} 2 Fases 4 Hilos | 3 Fases 5 Hilos.
+			\item \textbf{Montaje:} Autosoportado.
+			\item \textbf{Número de Circuitos:} Según Cantidad de Suscriptores.
+			\item \textbf{Barras:} Desnudas 1600Amp Máxima.
+			\item \textbf{Capacidad de Interrupción Máxima:} 10KA Icc (rms) en 220 VAC.
+			\item \textbf{Lámina utilizada:} Calibre 16 (1.5mm) Calibre 14 (1.9mm).
+			\item \textbf{Pintura:} Gris Electrostatico RAL 7042.
+		\end{itemize}
+		
+	\item \textbf{Bancos de Capacitores para Rectificar Fact. Potenc}\\
+		Se utiliza para compenzar cargas inductivas que generan altos valores de potencia reactiva, la cual trae como consecuencia un factor de potencia (FP) bajo, lo que se traduce en multas por parte de la compañia generadora de electricidad, en este caso CORPOELEC.\\
+		
+		\textbf{Ventajas:}		
+		\begin{enumerate}
+			\item Libera capacidad de KVAR de el sistema eléctrico.
+			\item Mejora la regulacion de voltaje.
+			\item Reduce las perdidas en el sistema.
+			\item Proporciona la energia reactiva demandada por las cargas inductivas.
+			\item Evitar el pago de multas por bajo factor de potencia.
+		\end{enumerate}
+		
+		\begin{itemize}
+			\item \textbf{Barras:} Desnudas 1000Amp Máxima.
+			\item \textbf{Dispositivo:} Equipo electrónico de 7 o 12 pasos automaticos.
+			\item \textbf{Voltaje de Operación:} 220VAC | 440VAC | 480VAC.
+			\item \textbf{Fusibles:} ZR1 ó ZR2 Ultrarapidos.
+			\item \textbf{Pintura:} Gris Electrostatico RAL 7042.
+			\item \textbf{Lámina utilizada:} Calibre 16 (1.5mm) Calibre 14 (1.9mm).
+			\item \textbf{Suplidores de potencia reactiva:} Banco de capacitores trifasicos según la necesidad de KVAR con descarga a tierra.
+			\item \textbf{Supresor de potencia:} Contactores tripolares con capacidad para los KVAR requeridos en Amperios.
+		\end{itemize}
+		
+\end{enumerate}
 \subsection{Asignación 3 Lunes 9/12/2020}
 \textbf{Tabla de conducción del cobre según sus dimensiones}\\
+\begin{figure}[ht!]
+	\centering
+	\fbox{\includegraphics[scale=0.4]{conductorCobre.png}}
+	\caption{Capacidades en conductores de cobre}
+\end{figure}
 
+\begin{figure}[ht!]
+	\centering
+	\fbox{\includegraphics[scale=0.4]{barrasCobre.png}}
+	\caption{Capacidades en Barras de Cobre}
+\end{figure}
  
 \end{document}
